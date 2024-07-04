@@ -3,5 +3,6 @@
   "extends": ["config:recommended"],
   "prHourlyLimit": 0,
   "prConcurrentLimit": 0,
-  "dependencyDashboard": false
+  "dependencyDashboard": false,
+  "postUpdateOptions": ["gomodVendorSkip"]
 }
